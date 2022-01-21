@@ -4,7 +4,7 @@ import 'package:equatable/equatable.dart';
 class App extends Equatable {
   final String name;
   final String icon;
-  final String installDate;
+  final int installDate;
   App({required this.name, required this.icon, required this.installDate});
 
   @override

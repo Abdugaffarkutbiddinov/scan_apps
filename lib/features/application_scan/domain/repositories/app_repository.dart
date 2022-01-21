@@ -5,5 +5,5 @@ import 'package:find_apps/features/application_scan/domain/entities/app.dart';
 
 abstract class AppRepository {
   Future<Either<Failure, List<App>>> getAppList();
-  Future<Either<Failure, App>> getAppDetails();
+  Future<Either<Failure, App>> getAppDetails(String name);
 }
